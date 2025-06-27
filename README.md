@@ -12,5 +12,24 @@ Este projeto contém um código simples em Python para envio automatizado de men
 3. Execute as células conforme as instruções
 
 ## Requisitos
+
 - Python 3.x
-- Bibliotecas: pandas, openpyxl, etc.
+- Navegador Google Chrome instalado
+- [ChromeDriver](https://chromedriver.chromium.org/) compatível com a versão do seu Chrome (adicione o executável no PATH ou na mesma pasta do projeto)
+- Jupyter Notebook ou JupyterLab (se for rodar o `.ipynb`)
+
+### Bibliotecas Python utilizadas
+
+- selenium
+- pandas
+- openpyxl (caso seu arquivo Excel seja .xlsx)
+- urllib
+- time
+- traceback
+
+#### Instalação das bibliotecas
+
+Execute no terminal:
+
+```bash
+pip install selenium pandas openpyxl
